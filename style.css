@@ -19,8 +19,8 @@ footer { max-width: 1500px; margin: 30px auto 0; display: flex; justify-content:
   h1 { font-size: 21px; }
   .masthead p { font-size: 10px; }
   .masthead p span { margin-left: 8px; }
-  main { padding-top: 28px; overflow-x: auto; padding-bottom: 5px; }
-  .gallery { gap: 10px; min-width: 650px; }
-  .work-title { top: 9px; left: 9px; padding: 5px 7px; font-size: 11px; }
+  main { padding-top: 28px; }
+  .gallery { gap: 8px; }
+  .work-title { top: 6px; left: 6px; max-width: calc(100% - 12px); padding: 4px 5px; font-size: 9px; }
 }
 @media (prefers-reduced-motion: reduce) { .work img { transition: none; } }
