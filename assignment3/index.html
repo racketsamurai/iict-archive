@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A3_HELP ME | 김대환</title>
+  <link rel="stylesheet" href="../sketch.css">
+  <script src="../libraries/p5.min.js"></script>
+  <script src="../libraries/p5.sound.min.js"></script>
+</head>
+<body>
+  <header class="sketch-nav"><a href="../">← 김대환</a><span>A3_HELP ME</span></header>
+  <main id="sketch"></main>
+  <p class="instructions">MJ에 마우스를 올리고 클릭해 보세요. 스파이더맨 클릭: 흔들기 · R: 돌아가기</p>
+  <script src="sketch.js"></script>
+  <script>
+    // Place the canvas in the page without changing the submitted sketch.
+    window.addEventListener('load', function () {
+      var canvas = document.querySelector('canvas');
+      if (canvas) document.getElementById('sketch').appendChild(canvas);
+    });
+  </script>
+</body>
+</html>
